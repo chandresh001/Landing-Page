@@ -1,0 +1,802 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+@font-face {
+    font-family: 'GOTHICB0';
+    src: url('./fonts/GOTHICB0/GOTHICB0.eot');
+    src: url('./fonts/GOTHICB0/GOTHICB0.eot') format('embedded-opentype'), url('./fonts/GOTHICB0/GOTHICB0.woff2') format('woff2'), url('./fonts/GOTHICB0/GOTHICB0.woff') format('woff'), url('./fonts/GOTHICB0/GOTHICB0.ttf') format('truetype'), url('./fonts/GOTHICB0/GOTHICB0.svg#GOTHICB0') format('svg');
+}
+
+@font-face {
+    font-family: 'CenturyGothic';
+    src: url('fonts/CenturyGothic/CenturyGothic.eot');
+    src: url('fonts/CenturyGothic/CenturyGothic.eot') format('embedded-opentype'), url('fonts/CenturyGothic/CenturyGothic.woff2') format('woff2'), url('fonts/CenturyGothic/CenturyGothic.woff') format('woff'), url('fonts/CenturyGothic/CenturyGothic.ttf') format('truetype'), url('fonts/CenturyGothic/CenturyGothic.svg#CenturyGothic') format('svg');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    max-width: 100%;
+    width: 100%;
+    font-family: 'CenturyGothic';
+    font-size: 14px;
+    line-height: 1.5;
+    color: #071f39;
+}
+
+.page-center {
+    max-width: 1256px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    float: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+span {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+a:hover {
+    color: #071f39;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.banner-section {
+    background-image: url(image/banner-img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 90px 0 100px;
+    box-sizing: border-box;
+}
+
+.banner-section .section-heading h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 50.11px;
+    line-height: 48px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.banner-section .section-text p {
+    font-family: 'CenturyGothic';
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.banner-left-side-inner-section {
+    max-width: 485px;
+}
+
+.banner-section .banner-cta-section .primary-btn.transparent-bg {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'GOTHICB0';
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px 15px;
+    max-width: 195px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-right: 25px;
+    border-radius: 5px;
+}
+
+.banner-section .banner-cta-section .primary-btn.transparent-bg:hover {
+    background: #071f39;
+    color: #fff;
+    border: 2px solid #071f39;
+}
+
+.banner-section .banner-cta-section .primary-btn.blue-bg {
+    font-size: 16px;
+    line-height: 24px;
+    background: #071f39;
+    font-family: 'GOTHICB0';
+    border: 2px solid #071f39;
+    color: #fff;
+    padding: 8px 15px;
+    max-width: 250px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.banner-section .banner-cta-section .primary-btn.blue-bg:hover {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.banner-section .banner-cta-section .primary-btn.blue-bg img {
+    position: relative;
+    top: 4px;
+    padding-right: 5px;
+}
+
+.banner-section .banner-cta-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.banner-section .banner-inner-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.banner-section .banner-left-side-section {
+    width: 60%;
+}
+
+.banner-section .banner-right-side-section {
+    width: 40%;
+}
+
+.banner-right-side-inner-section {
+    text-align: center;
+}
+
+.section-heading h2 {
+    font-size: 36px;
+    line-height: 48.8px;
+    color: #071f39;
+    font-family: 'GOTHICB0';
+    text-align: center;
+}
+
+.summary-inner-section .summary-icon {
+    width: 45px;
+}
+
+.summary-inner-section .summary {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.summary-inner-section {
+    max-width: 1030px;
+    margin: 0 auto;
+}
+
+.summary-inner-section .summary-text {
+    width: calc(100% - 45px);
+    width: -moz-calc(100% - 45px);
+    width: -webkit-calc(100% - 45px);
+}
+
+.summary-inner-section .summary-list-section {
+    grid-gap: 50px 55px;
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+}
+
+.summary-inner-section .summary-text p {
+    color: #071f39;
+}
+
+.summary-section {
+    background: #f2f2f2;
+    padding: 40px 0 0;
+}
+
+.summary-section .section-heading h2 {
+    margin-bottom: 65px;
+}
+
+.structure-download-list-wraper {
+    grid-gap: 30px 30px;
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    max-width: 1210px;
+    margin: 0 auto;
+}
+
+.structure-download-left-section {
+    width: 100%;
+}
+
+.structure-download-right-section {
+    width: 100%;
+}
+
+.structure-download-inner-section .structure-download-block h6 {
+    font-size: 16px;
+    line-height: 34.48px;
+    color: #071f39;
+    font-family: 'GOTHICB0';
+}
+
+.structure-download-inner-section .structure-download-block ul li a {
+    font-size: 14px;
+    line-height: 24px;
+    color: #7ca2d8;
+    font-family: 'CenturyGothic';
+}
+
+.structure-download-inner-section .structure-download-block ul li a:hover {
+    color: #071f39;
+}
+
+.structure-download-section {
+    background: #f2f2f2;
+    padding: 45px 0 100px;
+}
+
+.summary-section .page-center .summary-inner-section {
+    border-bottom: 1px solid #7ca2d8;
+    padding-bottom: 50px;
+}
+
+.structure-download-inner-section .structure-download-block ul {
+    list-style: none;
+    padding-left: 15px;
+}
+
+.structure-download-inner-section .structure-download-block ul li {
+    list-style: circle;
+    color: #7ca2d8;
+}
+
+.structure-download-section .section-heading h2 {
+    margin-bottom: 50px;
+}
+
+.structure-download-list-wraper .structure-download-block+.structure-download-block {
+    margin-top: 20px;
+}
+
+.structure-download-section .section-heading h2 img {
+    position: relative;
+    top: 3px;
+    margin-right: 10px;
+}
+
+.full-width-structure-download-section {
+    padding: 50px 0 80px;
+    background: #f6f6f6;
+}
+
+.full-width-structure-download-section .section-heading h2 {
+    margin-bottom: 65px;
+}
+
+.full-width-structure-download-section .section-heading h2 img {
+    position: relative;
+    top: 5px;
+    margin-right: 5px;
+}
+
+.full-width-structure-download-inner-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.full-width-structure-download-left-section {
+    width: 68%;
+}
+
+.full-width-structure-download-right-section {
+    width: 32%;
+    padding-left: 15px;
+}
+
+.full-width-structure-download-inner-section .section-heading h6 {
+    font-size: 16px;
+    line-height: 34.48px;
+    color: #071f39;
+    font-family: 'GOTHICB0';
+}
+
+.full-width-structure-download-left-section .full-width-structure-download-left-inner-section {
+    max-width: 588px;
+}
+
+.full-width-structure-download-right-section .primary-btn {
+    font-size: 22.51px;
+    line-height: 29.11px;
+    background: #3e5b83;
+    font-family: 'GOTHICB0';
+    border: 2px solid #3e5b83;
+    color: #fff;
+    padding: 11px 15px;
+    max-width: 270px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.full-width-structure-download-right-section .primary-btn:hover {
+    color: #3e5b83;
+    background: transparent;
+}
+
+.structure-download-section .section-heading h2,
+.full-width-structure-download-section .section-heading h2 {
+    font-size: 25.37px;
+    line-height: 29.46px;
+}
+
+.full-width-structure-download-section .section-heading {
+    display: block;
+    width: 100%;
+}
+
+.subscribe-form-container {
+    background-image: url(image/banner-img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 0 55px;
+    box-sizing: border-box;
+}
+
+.subscribe-form-container .section-heading h2 {
+    color: #fff;
+    font-size: 26.78px;
+    line-height: 31.1px;
+    margin-bottom: 20px;
+}
+
+.subscribe-form {
+    max-width: 315px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.subscribe-form-inner .form-field {
+    margin-bottom: 13px;
+}
+
+.subscribe-form-inner .form-field .hs-input {
+    width: 100%;
+    font-size: 14px;
+    line-height: 21.42px;
+    font-family: 'CenturyGothic';
+    color: #071f39;
+    padding: 8px 15px;
+    border: 1px solid #071f39;
+    border-radius: 3px;
+}
+
+.subscribe-form-inner .form-field .hs-input:focus {
+    outline: none;
+}
+
+.subscribe-form-inner .hs-submit .hs-button {
+    font-size: 19.88px;
+    line-height: 25.7px;
+    background: #071f39;
+    color: #fff;
+    outline: none;
+    border: 1px solid #071f39;
+    font-family: 'GOTHICB0';
+    max-width: 180px;
+    padding: 12px 15px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.subscribe-form-inner .hs-submit {
+    text-align: center;
+    margin-top: 10px;
+    display: inline-block;
+    width: 100%;
+}
+
+.subscribe-form-inner .hs-submit .hs-button:hover {
+    opacity: 0.8;
+}
+
+.footer-section {
+    background: #f2f2f2;
+    padding: 85px 0;
+}
+
+.footer-top-left-section {
+    width: 60%;
+    padding-right: 15px;
+}
+
+.footer-top-right-section {
+    width: 40%;
+    text-align: right;
+}
+
+.footer-top-left-section.section-heading h2 {
+    text-align: left;
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+}
+
+.footer-top-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #7ca2d8;
+    padding-bottom: 20px;
+}
+
+.footer-bottom-left-side-section {
+    width: 50%;
+    padding-right: 15px;
+}
+
+.footer-bottom-right-side-section {
+    width: 50%;
+    padding-left: 15px;
+}
+
+.footer-bottom-inner-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-bottom-left-side-section .footer-nav a {
+    font-size: 16px;
+    line-height: 24.94px;
+    color: #759cd4;
+}
+
+.footer-bottom-inner-section .address-section p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #071f39;
+}
+
+.footer-bottom-inner-section .address-section p a {
+    color: #759cd4;
+}
+
+.footer-bottom-left-side-section .footer-nav ul {
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.footer-bottom-left-side-section .footer-nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.footer-bottom-left-side-section .footer-nav ul li:after {
+    content: "|";
+    position: relative;
+    color: #759cd4;
+    top: -2px;
+}
+
+.footer-bottom-section {
+    margin-top: 20px;
+}
+
+.footer-bottom-right-side-inner-section {
+    text-align: right;
+    max-width: 450px;
+    margin: 0 0 0 auto;
+}
+
+.footer-bottom-left-side-section .footer-nav a:hover,
+.footer-bottom-inner-section .address-section p a:hover {
+    color: #071f39;
+}
+
+.banner-right-side-inner-section img {
+    max-width: 100%;
+}
+
+
+/*---------- Media Query ----------*/
+
+@media screen and (max-width: 1199px) {}
+
+
+/*-------- 1199 ends here ----------*/
+
+@media screen and (max-width: 991px) {
+    .banner-section .section-heading h1 {
+        font-size: 45px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    .banner-section .banner-cta-section {
+        margin-top: 35px;
+    }
+    .banner-section {
+        padding: 70px 0 60px;
+    }
+    .section-heading h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .summary-section .section-heading h2 {
+        margin-bottom: 40px;
+    }
+    .summary-inner-section .summary-list-section {
+        grid-gap: 40px 30px;
+    }
+    .structure-download-section .section-heading h2 {
+        margin-bottom: 40px;
+    }
+    .structure-download-section {
+        padding: 45px 0 70px;
+    }
+    .full-width-structure-download-section {
+        padding: 50px 0 70px;
+    }
+    .footer-section {
+        padding: 70px 0;
+    }
+    .footer-bottom-left-side-section .footer-nav ul {
+        margin-bottom: 20px;
+    }
+    .full-width-structure-download-section .section-heading h2 {
+        margin-bottom: 55px;
+    }
+}
+
+
+/*-------- 991 ends here ----------*/
+
+@media screen and (max-width: 880px) {
+    .banner-section {
+        padding: 50px 0 50px;
+    }
+    .banner-section .section-heading h1 {
+        font-size: 37px;
+        line-height: 36px;
+    }
+    .banner-section .banner-cta-section .primary-btn.transparent-bg {
+        padding: 8px 15px;
+        max-width: 170px;
+        font-size: 14px;
+        margin-right: 15px;
+    }
+    .banner-section .banner-cta-section .primary-btn.blue-bg {
+        font-size: 14px;
+        max-width: 230px;
+        padding: 6px 15px;
+    }
+    .summary-inner-section .summary-list-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .structure-download-section {
+        padding: 45px 0 60px;
+    }
+    .full-width-structure-download-section {
+        padding: 50px 0 60px;
+    }
+    .full-width-structure-download-right-section .primary-btn {
+        font-size: 18px;
+    }
+    .subscribe-form-inner .hs-submit .hs-button {
+        font-size: 18px;
+    }
+    .footer-section {
+        padding: 50px 0;
+    }
+}
+
+
+/*-------- 880 ends here ----------*/
+
+@media screen and (max-width: 767px) {
+    .banner-section .banner-inner-section {
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .banner-section {
+        padding: 50px 0 40px;
+    }
+    .banner-section .banner-left-side-section {
+        width: 100%;
+    }
+    .banner-section .banner-right-side-section {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .banner-left-side-inner-section {
+        max-width: 100%;
+        text-align: center;
+    }
+    .banner-section .banner-cta-section {
+        justify-content: center;
+    }
+    .banner-section .banner-cta-section .primary-btn.transparent-bg,
+    .banner-section .banner-cta-section .primary-btn.blue-bg {
+        max-width: 230px;
+        width: 100%;
+    }
+    .summary-inner-section .summary-list-section {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px 0px;
+    }
+    .structure-download-list-wraper {
+        grid-gap: 20px 0;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .structure-download-section {
+        padding: 45px 0 50px;
+    }
+    .full-width-structure-download-section {
+        padding: 50px 0 50px;
+    }
+    .full-width-structure-download-section .section-heading h2 {
+        margin-bottom: 40px;
+    }
+    .full-width-structure-download-inner-section {
+        flex-direction: column;
+    }
+    .full-width-structure-download-left-section {
+        width: 100%;
+    }
+    .full-width-structure-download-right-section {
+        width: 100%;
+        padding-left: 0;
+        margin-top: 20px;
+    }
+    .subscribe-form-container {
+        padding: 50px 0 50px;
+    }
+    .footer-top-right-section {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    .footer-top-left-section {
+        width: 100%;
+        padding-right: 0;
+    }
+    .footer-top-section,
+    .footer-bottom-inner-section {
+        flex-direction: column-reverse;
+    }
+    .footer-bottom-left-side-section {
+        width: 100%;
+        padding-right: 0;
+    }
+    .footer-bottom-right-side-section {
+        width: 100%;
+        padding-left: 0;
+        margin-bottom: 20px;
+    }
+    .footer-bottom-right-side-inner-section {
+        text-align: left;
+        max-width: 100%;
+        margin: 0;
+    }
+    .full-width-structure-download-right-section .primary-btn {
+        font-size: 17px;
+        padding: 11px 15px;
+        max-width: 200px;
+    }
+}
+
+
+/*-------- 767 ends here ----------*/
+
+@media screen and (max-width: 630px) {}
+
+
+/*-------- 630 ends here ----------*/
+
+@media screen and (max-width: 568px) {
+    .banner-section .section-heading h1 {
+        font-size: 35px;
+    }
+    .banner-section .banner-cta-section .primary-btn.transparent-bg {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .banner-section .banner-cta-section {
+        flex-direction: column;
+    }
+    .section-heading h2 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .summary-section .section-heading h2 {
+        margin-bottom: 30px;
+    }
+    .summary-inner-section .summary-list-section {
+        grid-gap: 20px 0px;
+    }
+    .summary-section .page-center .summary-inner-section {
+        padding-bottom: 40px;
+    }
+    .structure-download-section .section-heading h2 {
+        margin-bottom: 30px;
+    }
+    .structure-download-list-wraper .structure-download-block+.structure-download-block {
+        margin-top: 10px;
+    }
+    .structure-download-list-wraper {
+        grid-gap: 10px 0;
+    }
+    .full-width-structure-download-section .section-heading h2 {
+        margin-bottom: 30px;
+    }
+    .structure-download-section .section-heading h2,
+    .full-width-structure-download-section .section-heading h2 {
+        font-size: 23.37px;
+        line-height: 26.46px;
+    }
+    .full-width-structure-download-right-section .primary-btn {
+        font-size: 15px;
+        padding: 9px 15px;
+        max-width: 200px;
+    }
+    .subscribe-form-inner .hs-submit .hs-button {
+        font-size: 16px;
+    }
+}
+
+
+/*-------- 568 ends here ----------*/
+
+@media screen and (max-width: 480px) {}
+
+
+/*-------- 480 ends here ----------*/
+
+@media screen and (max-width: 360px) {}
+
+
+/*-------- 360 ends here ----------*/
